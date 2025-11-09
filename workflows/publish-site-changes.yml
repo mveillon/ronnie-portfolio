@@ -1,3 +1,6 @@
+name: Publish Site
+run-name: Publishing ${{ github.sha }}
+on: [push]
 jobs:
   # Build job
   build:
