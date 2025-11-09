@@ -21,7 +21,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://mveillon.github.io/ronnie-portfolio/
+      url: https://mveillon.github.io/ronnie-portfolio/index.html
     runs-on: ubuntu-latest
     needs: build
     steps:
